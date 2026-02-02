@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniDXF"
+version = "0.1.0"
+description = "DXF file creation library with minimal features to draw lines and arcs"
+authors = [{ name = "Gumer Freire" }]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPL-3.0-or-later" }
+
+[tool.setuptools]
+package-dir = {"" = "src"}
