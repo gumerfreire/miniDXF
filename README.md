@@ -34,7 +34,7 @@ Methods for file management:
 ## Example code
 
 ```python
-from minidxf import DXFDocument
+from miniDXF import DXFDocument
 
 # Create a new DXF document
 doc = DXFDocument()
@@ -62,5 +62,6 @@ doc.save("example.dxf")
 The DXF file is created with the minimal possible features. It conotains layer 0 only, and the default units are milimiters.
 
 ## License
+
 
 This project is licensed under the **GNU General Public License v3.0** (GPLv3).
